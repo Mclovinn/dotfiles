@@ -12,3 +12,8 @@ sudo apt install -y docker-ce
 
 # https://docs.docker.com/install/linux/linux-postinstall/
 sudo gpasswd -a "${USER}" docker
+
+# Install docker compose using pip
+sudo apt install python-pip
+sudo pip install setuptools
+sudo pip install docker-compose
